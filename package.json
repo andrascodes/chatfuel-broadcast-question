@@ -2,6 +2,9 @@
   "name": "chatfuel-broadcast-question",
   "version": "1.0.0",
   "description": "Example server for broadcasting questions daily with Chatfuel",
+  "engines": {
+    "node": "7.6.0"
+  },
   "main": "index.js",
   "scripts": {
     "dev": "./node_modules/.bin/nf start -j Procfiledev",
