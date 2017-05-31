@@ -1,0 +1,28 @@
+{
+  "name": "chatfuel-broadcast-question",
+  "version": "1.0.0",
+  "description": "Example server for broadcasting questions daily with Chatfuel",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nf start -j Procfiledev",
+    "start": "node index.js"
+  },
+  "repository": "git+https://github.com/andrewszucs/chatfuel-broadcast-question.git",
+  "author": "Andras Szucs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewszucs/chatfuel-broadcast-question/issues"
+  },
+  "homepage": "https://github.com/andrewszucs/chatfuel-broadcast-question#readme",
+  "devDependencies": {
+    "foreman": "^2.0.0",
+    "localtunnel": "^1.8.2",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "node-fetch": "^1.7.0"
+  }
+}
